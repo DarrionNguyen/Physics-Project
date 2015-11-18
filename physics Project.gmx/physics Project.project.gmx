@@ -6,8 +6,6 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\Spr_potato</sprite>
-    <sprite>sprites\spr_testing</sprite>
     <sprites name="menu">
       <sprite>sprites\spr_bg</sprite>
       <sprite>sprites\spr_title</sprite>
@@ -17,7 +15,17 @@
         <sprite>sprites\spr_play_clicked</sprite>
       </sprites>
     </sprites>
+    <sprites name="spr_back">
+      <sprite>sprites\spr_back_unhovered</sprite>
+      <sprite>sprites\spr_back_hovered</sprite>
+      <sprite>sprites\spr_back_clicked</sprite>
+    </sprites>
     <sprite>sprites\spr_black</sprite>
+    <sprites name="spr_next">
+      <sprite>sprites\spr_next_hovered</sprite>
+      <sprite>sprites\spr_next_unhovered</sprite>
+      <sprite>sprites\spr_next_clicked</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -25,6 +33,8 @@
     <script>scripts\fade_next_room.gml</script>
   </scripts>
   <objects name="objects">
+    <object>objects\obj_back</object>
+    <object>objects\obj_next</object>
     <objects name="menu">
       <object>objects\obj_play</object>
       <object>objects\obj_bg</object>
