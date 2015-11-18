@@ -15,6 +15,14 @@
         <sprite>sprites\spr_play_clicked</sprite>
       </sprites>
     </sprites>
+<<<<<<< HEAD
+=======
+    <sprites name="spr_back">
+      <sprite>sprites\spr_back_unhovered</sprite>
+      <sprite>sprites\spr_back_hovered</sprite>
+      <sprite>sprites\spr_back_clicked</sprite>
+	</sprites>
+>>>>>>> origin/master
     <sprites name="Spr_LevelSelect">
       <sprite>sprites\spr_template</sprite>
       <sprite>sprites\spr_level_1</sprite>
