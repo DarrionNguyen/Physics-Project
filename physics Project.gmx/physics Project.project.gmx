@@ -8,9 +8,22 @@
   <sprites name="sprites">
     <sprite>sprites\Spr_potato</sprite>
     <sprite>sprites\spr_testing</sprite>
+    <sprites name="menu">
+      <sprite>sprites\spr_play</sprite>
+      <sprite>sprites\spr_bg</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <objects name="objects">
+    <objects name="menu">
+      <object>objects\obj_menu</object>
+      <object>objects\obj_bg</object>
+    </objects>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\rm_menu</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
