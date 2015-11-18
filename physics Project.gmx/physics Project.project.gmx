@@ -9,20 +9,32 @@
     <sprite>sprites\Spr_potato</sprite>
     <sprite>sprites\spr_testing</sprite>
     <sprites name="menu">
-      <sprite>sprites\spr_play</sprite>
       <sprite>sprites\spr_bg</sprite>
+      <sprite>sprites\spr_title</sprite>
+      <sprites name="spr_play">
+        <sprite>sprites\spr_play_unhovered</sprite>
+        <sprite>sprites\spr_play_hovered</sprite>
+        <sprite>sprites\spr_play_clicked</sprite>
+      </sprites>
     </sprites>
+    <sprite>sprites\spr_black</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\fade_next_room.gml</script>
+  </scripts>
   <objects name="objects">
     <objects name="menu">
-      <object>objects\obj_menu</object>
+      <object>objects\obj_play</object>
       <object>objects\obj_bg</object>
+      <object>objects\obj_title</object>
     </objects>
+    <object>objects\obj_blackTrans</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
+    <room>rooms\rm_controls</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

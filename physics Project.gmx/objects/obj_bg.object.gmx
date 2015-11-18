@@ -25,10 +25,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>hspeed = -100;
-if (x &lt;= (-sprite_get_width(spr_bg)/2) &amp;&amp; instance_number(obj_bg) &lt; 2)
+            <string>hspeed = -1;
+if (x &lt;= ((room_width-sprite_get_width(spr_bg))/2) &amp;&amp; instance_number(obj_bg) &lt; 2)
 {
-    instance_create(room_width, 0, obj_bg);
+    instance_create(room_width, y, obj_bg);
 }
 else if (x &lt;= -sprite_get_width(spr_bg))
 {
