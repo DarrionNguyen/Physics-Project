@@ -6,8 +6,6 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\Spr_potato</sprite>
-    <sprite>sprites\spr_testing</sprite>
     <sprites name="menu">
       <sprite>sprites\spr_bg</sprite>
       <sprite>sprites\spr_title</sprite>
@@ -17,9 +15,15 @@
         <sprite>sprites\spr_play_clicked</sprite>
       </sprites>
     </sprites>
+    <sprites name="Spr_LevelSelect">
+      <sprite>sprites\spr_template</sprite>
+      <sprite>sprites\spr_level_1</sprite>
+    </sprites>
     <sprite>sprites\spr_black</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\background0</background>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\fade_next_room.gml</script>
