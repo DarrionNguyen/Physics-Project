@@ -25,12 +25,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>grav = 1
-spd = 7
-jspd = 12
-hspd = 0
-vspd = 0
-
+            <string>grav = 0.2;
+hsp = 0;
+vsp = 0;
+jumpspeed = 7;
+movespeed = 4
 </string>
           </argument>
         </arguments>
@@ -54,50 +53,40 @@ vspd = 0
           <argument>
             <kind>1</kind>
             <string>///controls
-var rkey = keyboard_check(vk_right);
-var lkey = keyboard_check(vk_left);
-var jkey = keyboard_check(vk_up);
-// checking ground
-if place_meeting(x, y+1, obj_wall) {
-    vspd = 0;
-    
-//jump    
-    if (jkey) {
-        vspd = -jspd;
+key_right = keyboard_check(vk_right);
+key_left = -keyboard_check(vk_left);
+key_jump = keyboard_check_pressed(vk_up);
+// more controls stuff
+move = key_left + key_right;
+hsp = move * movespeed;
+if (vsp &lt; 10) vsp += grav;
+
+if (place_meeting(x,y+1,obj_wall))
+{
+    vsp = key_jump * -jumpspeed
+}
+
+//side collision
+if (place_meeting(x+hsp,y,obj_wall))
+{
+    while(!place_meeting(x+sign(hsp),y,obj_wall)) 
+    {
+        x += sign(hsp);
     }
-} else {
-//gravity
-    if (vspd &lt; 10) {
-        vspd += grav;
+    hsp = 0
+}    
+x += hsp;
+
+// more side collision
+if (place_meeting(x,y+vsp,obj_wall))
+{
+    while(!place_meeting(x+sign(hsp),y,obj_wall)) 
+    {
+        y += sign(vsp);
     }
-}
-//right
-if rkey {
-    hspd = spd;
-}
-//left
-if (lkey) {
-    hspd = -spd;
-}
-//when not moving
-if ((!rkey &amp;&amp; !lkey) || (rkey &amp;&amp; lkey)) {
-    hspd = 0;
-}
-//side collisions
-if place_meeting(x+hspd,y,obj_wall) {
-    while !place_meeting(x+sign(hspd),y,obj_wall) {
-        x =+ sign(hspd);
-    }
-    hspd = 0;
-}
-x += hspd;
-if place_meeting(x,y+vspd,obj_wall) {
-    while !place_meeting(x,y+sign(vspd),obj_wall) {
-        y =+ sign(vspd);
-    }
-    vspd = 0;
-}
-y += vspd;
+    vsp = 0
+}    
+y += vsp;
 </string>
           </argument>
         </arguments>
