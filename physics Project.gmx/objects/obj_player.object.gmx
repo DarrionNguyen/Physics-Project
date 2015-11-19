@@ -25,11 +25,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>grav = 0.2;
+            <string>grav = 0.6;
 hsp = 0;
 vsp = 0;
 jumpspeed = 7;
-movespeed = 4
+movespeed = 6
 </string>
           </argument>
         </arguments>
@@ -73,20 +73,21 @@ if (place_meeting(x+hsp,y,obj_wall))
     {
         x += sign(hsp);
     }
-    hsp = 0
+    hsp = 0;
 }    
 x += hsp;
 
 // more side collision
 if (place_meeting(x,y+vsp,obj_wall))
 {
-    while(!place_meeting(x+sign(hsp),y,obj_wall)) 
+    while(!place_meeting(x,y+sign(vsp),obj_wall)) 
     {
         y += sign(vsp);
     }
     vsp = 0
 }    
 y += vsp;
+
 </string>
           </argument>
         </arguments>
