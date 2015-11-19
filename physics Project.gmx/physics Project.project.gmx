@@ -119,7 +119,7 @@
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
     <room>rooms\rm_controls_page1</room>
-    <room>rooms\rm_test</room>
+    <room>rooms\rm_debug</room>
     <room>rooms\rm_levelselect</room>
   </rooms>
   <help>
