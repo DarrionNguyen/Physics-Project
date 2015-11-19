@@ -21,9 +21,12 @@
       <sprite>sprites\spr_back_clicked</sprite>
     </sprites>
     <sprites name="Spr_LevelSelect">
+      <sprite>sprites\spr_unlit</sprite>
+      <sprite>sprites\spr_lit2</sprite>
+      <sprite>sprites\spr_lit</sprite>
       <sprite>sprites\spr_template</sprite>
       <sprite>sprites\spr_level_10</sprite>
-      <sprite>sprites\spr_level_9s</sprite>
+      <sprite>sprites\spr_level_9</sprite>
       <sprite>sprites\spr_level_8</sprite>
       <sprite>sprites\spr_level_7</sprite>
       <sprite>sprites\spr_level_6</sprite>
@@ -34,7 +37,7 @@
       <sprite>sprites\spr_level_1</sprite>
       <sprites name="spr_selected">
         <sprite>sprites\spr_level_10s</sprite>
-        <sprite>sprites\spr_level_9</sprite>
+        <sprite>sprites\spr_level_9s</sprite>
         <sprite>sprites\spr_level_8s</sprite>
         <sprite>sprites\spr_level_7s</sprite>
         <sprite>sprites\spr_level_6s</sprite>
@@ -62,9 +65,27 @@
       <object>objects\obj_title</object>
     </objects>
     <object>objects\obj_blackTrans</object>
-    <object>objects\obj_player</object>
     <object>objects\obj_wall</object>
-    <object>objects\obj_button1</object>
+    <objects name="obj_levelselect">
+      <object>objects\obj_button1</object>
+      <object>objects\obj_button2</object>
+      <object>objects\obj_button3</object>
+      <object>objects\obj_button4</object>
+      <object>objects\obj_button5</object>
+      <object>objects\obj_button6</object>
+      <object>objects\obj_button7</object>
+      <object>objects\obj_button8</object>
+      <object>objects\obj_button9</object>
+      <object>objects\obj_button10</object>
+      <objects name="obj_lit">
+        <object>objects\obj_lit2</object>
+        <object>objects\obj_lit4</object>
+        <object>objects\obj_lit3</object>
+        <object>objects\obj_lit1</object>
+      </objects>
+    </objects>
+    <object>objects\obj_player</object>
+    <object>objects\obj_control</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
