@@ -63,14 +63,17 @@
       <sprite>sprites\spr_tile4</sprite>
     </sprites>
     <sprites name="player">
-      <sprite>sprites\spr_player_standing</sprite>
+      <sprite>sprites\spr_player_standingR</sprite>
+      <sprite>sprites\spr_player_standingL</sprite>
       <sprite>sprites\spr_player_movingR</sprite>
       <sprite>sprites\spr_player_movingL</sprite>
     </sprites>
     <sprites name="baddies">
       <sprites name="clone">
-        <sprite>sprites\spr_clone_standing</sprite>
-        <sprite>sprites\spr_clone_moving1</sprite>
+        <sprite>sprites\spr_clone_standingR</sprite>
+        <sprite>sprites\spr_clone_standingL</sprite>
+        <sprite>sprites\spr_clone_movingR</sprite>
+        <sprite>sprites\spr_clone_movingL</sprite>
       </sprites>
     </sprites>
   </sprites>
@@ -98,11 +101,6 @@
       <object>objects\obj_button3</object>
       <object>objects\obj_button4</object>
       <object>objects\obj_button5</object>
-      <object>objects\obj_button6</object>
-      <object>objects\obj_button7</object>
-      <object>objects\obj_button8</object>
-      <object>objects\obj_button9</object>
-      <object>objects\obj_button10</object>
       <objects name="obj_lit">
         <object>objects\obj_lit2</object>
         <object>objects\obj_lit4</object>
@@ -111,6 +109,7 @@
       </objects>
     </objects>
     <object>objects\obj_player</object>
+    <object>objects\obj_clone</object>
     <object>objects\obj_back</object>
     <object>objects\obj_next</object>
     <object>objects\obj_control</object>
@@ -118,8 +117,8 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
-    <room>rooms\rm_controls_page1</room>
     <room>rooms\rm_debug</room>
+    <room>rooms\rm_controls_page1</room>
     <room>rooms\rm_levelselect</room>
   </rooms>
   <help>
