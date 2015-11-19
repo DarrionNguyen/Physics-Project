@@ -85,7 +85,7 @@
         <arguments>
           <argument>
             <kind>5</kind>
-            <sprite>spr_play_unhovered</sprite>
+            <sprite>spr_play_hovered</sprite>
           </argument>
           <argument>
             <kind>0</kind>
@@ -113,11 +113,11 @@
         <arguments>
           <argument>
             <kind>9</kind>
-            <script>fade_next_room</script>
+            <script>fade_goto_room</script>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>rm_levelselect</string>
+            <string>rm_controls_page1</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -175,7 +175,7 @@
         <arguments>
           <argument>
             <kind>5</kind>
-            <sprite>spr_play_hovered</sprite>
+            <sprite>spr_play_clicked</sprite>
           </argument>
           <argument>
             <kind>0</kind>

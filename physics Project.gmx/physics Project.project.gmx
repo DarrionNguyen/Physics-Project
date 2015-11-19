@@ -14,11 +14,17 @@
         <sprite>sprites\spr_play_hovered</sprite>
         <sprite>sprites\spr_play_clicked</sprite>
       </sprites>
+      <sprite>sprites\spr_controls</sprite>
     </sprites>
     <sprites name="spr_back">
       <sprite>sprites\spr_back_unhovered</sprite>
       <sprite>sprites\spr_back_hovered</sprite>
       <sprite>sprites\spr_back_clicked</sprite>
+    </sprites>
+    <sprites name="spr_next">
+      <sprite>sprites\spr_next_unhovered</sprite>
+      <sprite>sprites\spr_next_hovered</sprite>
+      <sprite>sprites\spr_next_clicked</sprite>
     </sprites>
     <sprites name="Spr_LevelSelect">
       <sprite>sprites\spr_unlit</sprite>
@@ -73,6 +79,8 @@
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
+    <script>scripts\fade_goto_room.gml</script>
+    <script>scripts\fade_prev_room.gml</script>
     <script>scripts\fade_next_room.gml</script>
   </scripts>
   <objects name="objects">
@@ -80,6 +88,7 @@
       <object>objects\obj_play</object>
       <object>objects\obj_bg</object>
       <object>objects\obj_title</object>
+      <object>objects\obj_controls</object>
     </objects>
     <object>objects\obj_blackTrans</object>
     <object>objects\obj_wall</object>
@@ -102,6 +111,8 @@
       </objects>
     </objects>
     <object>objects\obj_player</object>
+    <object>objects\obj_back</object>
+    <object>objects\obj_next</object>
     <object>objects\obj_control</object>
     <object>objects\obj_objective</object>
   </objects>

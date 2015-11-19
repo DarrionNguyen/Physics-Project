@@ -113,11 +113,11 @@
         <arguments>
           <argument>
             <kind>9</kind>
-            <script>fade_next_room</script>
+            <script>fade_prev_room</script>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>rm_controls_page1</string>
+            <string></string>
           </argument>
           <argument>
             <kind>0</kind>
