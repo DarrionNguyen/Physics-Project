@@ -22,7 +22,28 @@
     </sprites>
     <sprites name="Spr_LevelSelect">
       <sprite>sprites\spr_template</sprite>
+      <sprite>sprites\spr_level_10</sprite>
+      <sprite>sprites\spr_level_9s</sprite>
+      <sprite>sprites\spr_level_8</sprite>
+      <sprite>sprites\spr_level_7</sprite>
+      <sprite>sprites\spr_level_6</sprite>
+      <sprite>sprites\spr_level_5</sprite>
+      <sprite>sprites\spr_level_4</sprite>
+      <sprite>sprites\spr_level_3</sprite>
+      <sprite>sprites\spr_level_2</sprite>
       <sprite>sprites\spr_level_1</sprite>
+      <sprites name="spr_selected">
+        <sprite>sprites\spr_level_10s</sprite>
+        <sprite>sprites\spr_level_9</sprite>
+        <sprite>sprites\spr_level_8s</sprite>
+        <sprite>sprites\spr_level_7s</sprite>
+        <sprite>sprites\spr_level_6s</sprite>
+        <sprite>sprites\spr_level_5s</sprite>
+        <sprite>sprites\spr_level_4s</sprite>
+        <sprite>sprites\spr_level_3s</sprite>
+        <sprite>sprites\spr_level_2s</sprite>
+        <sprite>sprites\spr_level_1s</sprite>
+      </sprites>
     </sprites>
     <sprite>sprites\spr_black</sprite>
     <sprite>sprites\spr_wall</sprite>
@@ -43,11 +64,13 @@
     <object>objects\obj_blackTrans</object>
     <object>objects\obj_player</object>
     <object>objects\obj_wall</object>
+    <object>objects\obj_button1</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_test</room>
     <room>rooms\rm_menu</room>
+    <room>rooms\rm_test</room>
     <room>rooms\rm_controls_page1</room>
+    <room>rooms\rm_levelselect</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

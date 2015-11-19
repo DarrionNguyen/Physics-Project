@@ -85,7 +85,7 @@
         <arguments>
           <argument>
             <kind>5</kind>
-            <sprite>spr_play_hovered</sprite>
+            <sprite>spr_play_unhovered</sprite>
           </argument>
           <argument>
             <kind>0</kind>
@@ -117,7 +117,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>rm_controls_page1</string>
+            <string>rm_levelselect</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -175,7 +175,7 @@
         <arguments>
           <argument>
             <kind>5</kind>
-            <sprite>spr_play_clicked</sprite>
+            <sprite>spr_play_hovered</sprite>
           </argument>
           <argument>
             <kind>0</kind>
