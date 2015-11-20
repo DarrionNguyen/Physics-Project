@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>hsp = 0;
+            <string>grav = 0.4;
+hsp = 0;
 vsp = 0;
 jumpspeed = 7;
 movespeed = 6;
@@ -75,7 +76,7 @@ else
         sprite_index = spr_player_standingR;
 }
 hsp = move * movespeed;
-if (vsp &lt; 10) vsp += global.grav;
+if (vsp &lt; 10) vsp += grav;
 
 if (place_meeting(x,y+1,obj_wall))
 {
