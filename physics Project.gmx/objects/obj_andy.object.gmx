@@ -58,7 +58,7 @@ mhealth = 3
     {
         hsp = 0
         vsp = (min(7,vsp+1));
-        if (distance_to_object(obj_player) &lt;192) state = e_state.chase
+        if (distance_to_object(obj_player) &lt;1000) state = e_state.chase
     }
     break;
     case e_state.chase:
@@ -71,7 +71,7 @@ if (place_meeting(x,y+1,obj_wall))
         dir = sign(obj_player.x-x);
         hsp = dir*4
          vsp = (min(7,vsp+1));
-         if (distance_to_object(obj_player) &gt; 256) state = e_state.idle
+         if (distance_to_object(obj_player) &gt; 1000) state = e_state.idle
     }
     break
 }
