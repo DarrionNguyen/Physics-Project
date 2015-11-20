@@ -120,8 +120,9 @@
           <argument>
             <kind>1</kind>
             <string>if time = 0 {
-global.level4 = true
-room_goto(rm_levelselect)
+    global.level4 = true;
+    audio_play_sound(level_clear, 1, 0);
+    fade_goto_room(rm_levelselect);
 }
 </string>
           </argument>
