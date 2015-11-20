@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (global.level2) {
+            <string>if (global.level2) = true {
     image_alpha = 1
 }
 else {
@@ -251,7 +251,7 @@ else {
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>button_click_better</sound>
+            <sound>button_click</sound>
           </argument>
           <argument>
             <kind>3</kind>
