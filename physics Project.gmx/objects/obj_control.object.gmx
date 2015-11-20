@@ -30,6 +30,8 @@ global.level2 = false
 global.level3 = false
 global.level4 = false
 global.level5unlock = false
+
+global.changingRoom = false;
 </string>
           </argument>
         </arguments>

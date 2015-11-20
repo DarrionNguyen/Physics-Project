@@ -4,7 +4,10 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\button_click</sound>
+    <sound>sound\button_click_better</sound>
+  </sounds>
   <sprites name="sprites">
     <sprites name="menu">
       <sprite>sprites\spr_bg</sprite>
@@ -14,11 +17,17 @@
         <sprite>sprites\spr_play_hovered</sprite>
         <sprite>sprites\spr_play_clicked</sprite>
       </sprites>
+      <sprite>sprites\spr_controls</sprite>
     </sprites>
     <sprites name="spr_back">
       <sprite>sprites\spr_back_unhovered</sprite>
       <sprite>sprites\spr_back_hovered</sprite>
       <sprite>sprites\spr_back_clicked</sprite>
+    </sprites>
+    <sprites name="spr_next">
+      <sprite>sprites\spr_next_unhovered</sprite>
+      <sprite>sprites\spr_next_hovered</sprite>
+      <sprite>sprites\spr_next_clicked</sprite>
     </sprites>
     <sprites name="Spr_LevelSelect">
       <sprite>sprites\spr_unlit</sprite>
@@ -57,15 +66,28 @@
       <sprite>sprites\spr_tile4</sprite>
     </sprites>
     <sprites name="player">
-      <sprite>sprites\spr_player_standing</sprite>
+      <sprite>sprites\spr_player_standingR</sprite>
+      <sprite>sprites\spr_player_standingL</sprite>
       <sprite>sprites\spr_player_movingR</sprite>
       <sprite>sprites\spr_player_movingL</sprite>
     </sprites>
     <sprites name="baddies">
       <sprites name="clone">
-        <sprite>sprites\spr_clone_standing</sprite>
-        <sprite>sprites\spr_clone_moving1</sprite>
+        <sprite>sprites\spr_clone_standingR</sprite>
+        <sprite>sprites\spr_clone_standingL</sprite>
+        <sprite>sprites\spr_clone_movingR</sprite>
+        <sprite>sprites\spr_clone_movingL</sprite>
       </sprites>
+    </sprites>
+    <sprites name="interactable">
+      <sprite>sprites\spr_box</sprite>
+    </sprites>
+    <sprites name="level_texts">
+      <sprite>sprites\spr_txt_level1</sprite>
+      <sprite>sprites\spr_txt_level2</sprite>
+      <sprite>sprites\spr_txt_level3</sprite>
+      <sprite>sprites\spr_txt_level4</sprite>
+      <sprite>sprites\spr_txt_level5</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -73,6 +95,8 @@
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
+    <script>scripts\fade_goto_room.gml</script>
+    <script>scripts\fade_prev_room.gml</script>
     <script>scripts\fade_next_room.gml</script>
   </scripts>
   <objects name="objects">
@@ -80,6 +104,7 @@
       <object>objects\obj_play</object>
       <object>objects\obj_bg</object>
       <object>objects\obj_title</object>
+      <object>objects\obj_controls</object>
     </objects>
     <object>objects\obj_blackTrans</object>
     <object>objects\obj_wall</object>
@@ -89,11 +114,6 @@
       <object>objects\obj_button3</object>
       <object>objects\obj_button4</object>
       <object>objects\obj_button5</object>
-      <object>objects\obj_button6</object>
-      <object>objects\obj_button7</object>
-      <object>objects\obj_button8</object>
-      <object>objects\obj_button9</object>
-      <object>objects\obj_button10</object>
       <objects name="obj_lit">
         <object>objects\obj_lit2</object>
         <object>objects\obj_lit4</object>
@@ -102,14 +122,27 @@
       </objects>
     </objects>
     <object>objects\obj_player</object>
+    <object>objects\obj_clone</object>
+    <object>objects\obj_back</object>
+    <object>objects\obj_next</object>
     <object>objects\obj_control</object>
     <object>objects\obj_objective</object>
+    <objects name="tiles">
+      <object>objects\obj_tile1</object>
+      <object>objects\obj_tile2</object>
+      <object>objects\obj_tile3</object>
+      <object>objects\obj_tile4</object>
+    </objects>
+    <objects name="interactable">
+      <object>objects\obj_box</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
+    <room>rooms\rm_debug</room>
     <room>rooms\rm_controls_page1</room>
-    <room>rooms\rm_test</room>
     <room>rooms\rm_levelselect</room>
+    <room>rooms\rm_level1</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

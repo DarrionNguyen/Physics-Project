@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if global.level1 = true {
+            <string>if (global.level1) {
     image_alpha = 1
 }
 else {
@@ -169,11 +169,11 @@ else {
         <arguments>
           <argument>
             <kind>9</kind>
-            <script>fade_next_room</script>
+            <script>fade_goto_room</script>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>rm_test</string>
+            <string>rm_level1</string>
           </argument>
           <argument>
             <kind>0</kind>

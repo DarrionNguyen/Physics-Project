@@ -52,6 +52,9 @@
   </views>
   <instances>
     <instance objName="obj_bg" x="0" y="0" name="inst_445BC4A8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_controls" x="0" y="0" name="inst_CF7F4BE3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_back" x="32" y="640" name="inst_AFBD9168" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_next" x="800" y="640" name="inst_99927136" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
