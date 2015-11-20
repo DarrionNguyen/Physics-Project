@@ -78,6 +78,7 @@
         <sprite>sprites\spr_clone_movingR</sprite>
         <sprite>sprites\spr_clone_movingL</sprite>
       </sprites>
+      <sprite>sprites\spr_andy</sprite>
     </sprites>
     <sprites name="interactable">
       <sprite>sprites\spr_box</sprite>
@@ -91,6 +92,8 @@
       <sprite>sprites\spr_txt_level4</sprite>
       <sprite>sprites\spr_txt_level5</sprite>
     </sprites>
+    <sprite>sprites\spr_quantumgun</sprite>
+    <sprite>sprites\spr_bullet</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -100,6 +103,7 @@
     <script>scripts\fade_goto_room.gml</script>
     <script>scripts\fade_prev_room.gml</script>
     <script>scripts\fade_next_room.gml</script>
+    <script>scripts\scr_anglerotate.gml</script>
   </scripts>
   <objects name="objects">
     <objects name="menu">
@@ -124,6 +128,7 @@
       </objects>
     </objects>
     <object>objects\obj_player</object>
+    <object>objects\obj_andy</object>
     <object>objects\obj_clone</object>
     <object>objects\obj_back</object>
     <object>objects\obj_next</object>
@@ -140,6 +145,8 @@
       <object>objects\obj_portal_entry</object>
       <object>objects\obj_portal_exit</object>
     </objects>
+    <object>objects\obj_quantumgun</object>
+    <object>objects\obj_bullet</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_debug</room>
