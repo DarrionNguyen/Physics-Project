@@ -53,8 +53,8 @@
   <instances>
     <instance objName="obj_title" x="288" y="192" name="inst_07580917" locked="0" code="" scaleX="0.973333358764648" scaleY="0.973333358764648" colour="4294967295" rotation="0"/>
     <instance objName="obj_play" x="512" y="544" name="inst_9BAF7688" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_bg" x="0" y="0" name="inst_7C69861A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_control" x="0" y="0" name="inst_C56733B3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bg" x="-64" y="-32" name="inst_7C69861A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_control" x="0" y="0" name="inst_2E8E8E5D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
