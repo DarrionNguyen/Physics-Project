@@ -104,12 +104,7 @@ y += vsp;
         <arguments>
           <argument>
             <kind>1</kind>
-<<<<<<< HEAD
-            <string>var portalX = 0, portalY = 0;
-if (x &gt;= 400 &amp;&amp; x &lt;= 550 &amp;&amp; y &gt;= 500 &amp;&amp; y &lt;= 710)
-=======
             <string>if (x &gt;= 400 &amp;&amp; x &lt;= 550 &amp;&amp; y &gt;= 500 &amp;&amp; y &lt;= 710)
->>>>>>> origin/master
 {
     portalx = 480; portaly = 96;
 }
@@ -122,15 +117,9 @@ else if (x &gt;= 1400 &amp;&amp; x &lt;= 1600 &amp;&amp; y &gt;= 200 &amp;&amp; 
 {
     portalx = 1312; portaly = 608;
 }
-<<<<<<< HEAD
-else if (x &gt;= 1600 &amp;&amp; x &lt;= 1700 &amp;&amp; y &gt;= 500 &amp;&amp; y &lt;= 710)
-{
-    portalX = 1728; portalY = 128;
-=======
 if (x &gt;= 1600 &amp;&amp; x &lt;= 1700 &amp;&amp; y &gt;= 500 &amp;&amp; y &lt;= 710)
 {
     portalx = 1760; portaly = 96;
->>>>>>> origin/master
 }
 
 x = portalx

@@ -177,13 +177,10 @@
       <object>objects\obj_level4</object>
       <object>objects\obj_level5</object>
     </objects>
-<<<<<<< HEAD
     <object>objects\obj_buttonmaker</object>
     <object>objects\obj_button</object>
     <object>objects\obj_finalboss</object>
     <object>objects\obj_banana</object>
-=======
->>>>>>> origin/master
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
