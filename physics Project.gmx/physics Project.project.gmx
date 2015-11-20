@@ -103,6 +103,7 @@
     <sprite>sprites\spr_andydied</sprite>
     <sprite>sprites\spr_andycreator</sprite>
     <sprite>sprites\spr_banana</sprite>
+    <sprite>sprites\sprite67</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
