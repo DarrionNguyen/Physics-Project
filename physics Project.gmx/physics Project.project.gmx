@@ -8,6 +8,7 @@
     <sound>sound\button_click</sound>
     <sound>sound\button_click_better</sound>
     <sound>sound\player_death</sound>
+    <sound>sound\laser_shot</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="menu">
@@ -136,7 +137,6 @@
     <object>objects\obj_back</object>
     <object>objects\obj_next</object>
     <object>objects\obj_control</object>
-    <object>objects\obj_objective</object>
     <objects name="tiles">
       <object>objects\obj_tile1</object>
       <object>objects\obj_tile2</object>
@@ -148,10 +148,8 @@
       <object>objects\obj_portal_entry</object>
       <object>objects\obj_portal_exit</object>
     </objects>
-<<<<<<< HEAD
     <object>objects\obj_quantumgun</object>
     <object>objects\obj_bullet</object>
-=======
     <objects name="level_texts">
       <object>objects\obj_level1</object>
       <object>objects\obj_level2</object>
@@ -159,7 +157,6 @@
       <object>objects\obj_level4</object>
       <object>objects\obj_level5</object>
     </objects>
->>>>>>> origin/master
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
