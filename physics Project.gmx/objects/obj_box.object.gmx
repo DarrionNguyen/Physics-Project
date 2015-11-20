@@ -50,7 +50,7 @@ vsp = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (vsp &lt; 10) vsp += grav;
+            <string>if (vsp &lt; 100) vsp += grav;
 //side collision
 if (place_meeting(x+hsp,y,obj_wall))
 {
@@ -79,6 +79,53 @@ if (place_meeting(x,y+vsp,obj_wall))
     vsp = 0
 }    
 y += vsp;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="obj_portal_entry">
+      <action>
+        <libid>1</libid>
+        <id>109</id>
+        <kind>0</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_move_to</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>0</kind>
+            <string>obj_portal_exit.x+15</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>obj_portal_exit.y</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>grav += 0.2
 </string>
           </argument>
         </arguments>
