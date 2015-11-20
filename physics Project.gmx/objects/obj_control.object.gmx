@@ -26,8 +26,8 @@
           <argument>
             <kind>1</kind>
             <string>global.level1 = true
-global.level2 = false
-global.level3 = false
+global.level2 = true
+global.level3 = true
 global.level4 = false
 global.level5unlock = false
 

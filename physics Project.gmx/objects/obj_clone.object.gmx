@@ -126,8 +126,12 @@ y += vsp;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.level2 = true
-room_goto(rm_levelselect)
+            <string>if (room == rm_level1)
+{
+    global.level2 = true
+    audio_play_sound(level_clear, 1, 0);
+    fade_goto_room(rm_levelselect);
+}
 </string>
           </argument>
         </arguments>

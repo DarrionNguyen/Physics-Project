@@ -251,7 +251,7 @@ else {
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>button_click</sound>
+            <sound>button_click_better</sound>
           </argument>
           <argument>
             <kind>3</kind>
