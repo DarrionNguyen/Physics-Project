@@ -38,11 +38,6 @@
       <sprite>sprites\spr_lit</sprite>
       <sprite>sprites\spr_lit2</sprite>
       <sprite>sprites\spr_template</sprite>
-      <sprite>sprites\spr_level_10</sprite>
-      <sprite>sprites\spr_level_9</sprite>
-      <sprite>sprites\spr_level_8</sprite>
-      <sprite>sprites\spr_level_7</sprite>
-      <sprite>sprites\spr_level_6</sprite>
       <sprite>sprites\spr_level_5</sprite>
       <sprite>sprites\spr_level_4</sprite>
       <sprite>sprites\spr_level_3</sprite>
@@ -137,7 +132,6 @@
       <object>objects\obj_button2</object>
       <object>objects\obj_button3</object>
       <object>objects\obj_button4</object>
-      <object>objects\obj_button5</object>
       <objects name="obj_lit">
         <object>objects\obj_lit2</object>
         <object>objects\obj_lit4</object>

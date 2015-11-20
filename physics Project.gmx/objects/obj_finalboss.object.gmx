@@ -27,6 +27,57 @@
             <kind>1</kind>
             <string>bosshealth = 80;
 hsp=6;
+vsp=0;
+isLeft = false;
+onGround = false;
+alarm[0]=20;
+alarm[1]=50;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="1">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if (distance_to_object(obj_player) &lt; 300)
+{
+    isLeft = x - obj_player.x &lt; 0;
+    
+    //throw bananas
+    randomize();
+    amount = random(7) + 1;
+    
+    for (var i = 0; i &lt; amount; i++)
+    {
+        randomize();
+        
+        fct = 1;
+        if (random(100) &lt; 50)
+            fct = -1;
+        if (isLeft)
+            posX = x + 176;
+        else
+            posX = x - 176;
+        
+        posY = y + (fct*random(90))
+        instance_create(posX, posY, obj_banana);
+    }
+}
 </string>
           </argument>
         </arguments>
@@ -49,7 +100,35 @@ hsp=6;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>hsp=-hsp;
+            <string>isLeft = x - obj_player.x &lt; 0;
+onGround = place_meeting(x,y+1,obj_wall);
+
+if (distance_to_object(obj_player) &lt; 150)
+{
+    if (isLeft)
+        hsp = -9;
+    else
+        hsp = 9;
+    // fall back
+}
+else if (distance_to_object(obj_player) &gt;= 150)
+{
+    if (isLeft)
+        hsp = 7;
+    else
+        hsp = -7;
+    // charge
+}
+else if (distance_to_object(obj_player) &lt;= 90)
+{
+    randomize();
+    vsp = -(random(9) + 7);
+    if (isLeft)
+        hsp = 19;
+    else
+        hsp = -19;
+    // too close (backed up to a wall), jump towards
+}
 </string>
           </argument>
         </arguments>
@@ -73,6 +152,8 @@ hsp=6;
           <argument>
             <kind>1</kind>
             <string>x+=hsp;
+if (vsp &lt; 10) vsp += global.grav;
+y+=vsp;
 image_angle = direction;
 </string>
           </argument>
