@@ -28,8 +28,8 @@
             <string>global.level1 = true
 global.level2 = true
 global.level3 = true
-global.level4 = false
-global.level5unlock = false
+global.level4 = true
+global.level5 = true
 
 global.changingRoom = false;
 

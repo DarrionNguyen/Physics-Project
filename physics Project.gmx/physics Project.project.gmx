@@ -10,6 +10,12 @@
     <sound>sound\player_death</sound>
     <sound>sound\laser_shot</sound>
     <sound>sound\level_clear</sound>
+    <sound>sound\cutscene_1</sound>
+    <sound>sound\cutscene_2</sound>
+    <sound>sound\cutscene_3</sound>
+    <sound>sound\cutscene_4</sound>
+    <sound>sound\cutscene_5</sound>
+    <sound>sound\cutscene_6</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="menu">
@@ -151,6 +157,7 @@
       <object>objects\room2</object>
       <object>objects\room3</object>
       <object>objects\room4</object>
+      <object>objects\room6</object>
       <object>objects\room5</object>
       <object>objects\talking_henry</object>
     </objects>
@@ -188,13 +195,10 @@
       <object>objects\obj_level4</object>
       <object>objects\obj_level5</object>
     </objects>
-    <object>objects\obj_buttonmaker</object>
-    <object>objects\obj_button</object>
     <object>objects\obj_finalboss</object>
     <object>objects\obj_banana</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_intro</room>
     <room>rooms\rm_menu</room>
     <room>rooms\rm_controls_page1</room>
     <room>rooms\rm_levelselect</room>
@@ -207,6 +211,7 @@
     <room>rooms\rm_level4_c</room>
     <room>rooms\rm_level4</room>
     <room>rooms\rm_ending</room>
+    <room>rooms\rm_intro</room>
     <room>rooms\rm_debug</room>
   </rooms>
   <help>

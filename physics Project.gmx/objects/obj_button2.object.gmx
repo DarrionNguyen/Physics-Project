@@ -215,7 +215,7 @@ else {
           </argument>
           <argument>
             <kind>0</kind>
-            <string>rm_level2</string>
+            <string>rm_level2_c</string>
           </argument>
           <argument>
             <kind>0</kind>
