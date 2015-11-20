@@ -55,8 +55,7 @@ movingTicks = 0;
             <kind>1</kind>
             <string>player = instance_find(obj_player, 0);
 
-if (!player.isDead)
-    hsp = -player.hsp;
+hsp = -player.hsp;
 
 if (hsp &lt; 0)
     sprite_index = spr_clone_movingL;
@@ -72,7 +71,7 @@ else
 
 if (vsp &lt; 10) vsp += grav;
 
-if (place_meeting(x,y+1,obj_wall) &amp;&amp; !player.isDead)
+if (place_meeting(x,y+1,obj_wall))
 {
     vsp = player.vsp;
 }
