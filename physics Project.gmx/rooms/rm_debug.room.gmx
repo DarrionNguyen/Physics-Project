@@ -189,8 +189,9 @@
     <instance objName="obj_tile4" x="352" y="608" name="inst_49622940" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_tile4" x="416" y="576" name="inst_987A02B2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_tile4" x="448" y="576" name="inst_01624909" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_tile1" x="576" y="448" name="inst_93C08451" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_tile1" x="608" y="448" name="inst_BEA50BF9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_clone" x="864" y="512" name="inst_6FEF4CD7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_title" x="256" y="96" name="inst_F9510867" locked="0" code="" scaleX="0.653333306312561" scaleY="0.54666668176651" colour="4294967295" rotation="0"/>
+    <instance objName="obj_control" x="0" y="0" name="inst_D5684DA3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

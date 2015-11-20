@@ -7,6 +7,7 @@
   <sounds name="sound">
     <sound>sound\button_click</sound>
     <sound>sound\button_click_better</sound>
+    <sound>sound\player_death</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="menu">
@@ -98,6 +99,7 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\fade_goto_room.gml</script>
+    <script>scripts\death_restart_room.gml</script>
     <script>scripts\fade_prev_room.gml</script>
     <script>scripts\fade_next_room.gml</script>
   </scripts>
@@ -109,6 +111,7 @@
       <object>objects\obj_controls</object>
     </objects>
     <object>objects\obj_blackTrans</object>
+    <object>objects\obj_restartTrans</object>
     <object>objects\obj_wall</object>
     <objects name="obj_levelselect">
       <object>objects\obj_button1</object>
