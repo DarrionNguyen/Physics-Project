@@ -8,7 +8,7 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="0" enumb="0">
+    <event eventtype="3" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -25,18 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.level1 = true
-global.level2 = true
-global.level3 = false
-global.level4 = false
-global.level5unlock = false
-
-global.changingRoom = false;
-
-global.grav = 0.4;
-//ai
-
-</string>
+            <string></string>
           </argument>
         </arguments>
       </action>
