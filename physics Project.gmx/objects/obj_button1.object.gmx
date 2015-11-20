@@ -152,6 +152,7 @@ else {
         <isnot>0</isnot>
       </action>
     </event>
+<<<<<<< HEAD
     <event eventtype="6" enumb="4">
       <action>
         <libid>1</libid>
@@ -218,6 +219,8 @@ else {
         </arguments>
       </action>
     </event>
+=======
+>>>>>>> parent of df978a3... testing objectives
   </events>
   <PhysicsObject>0</PhysicsObject>
   <PhysicsObjectSensor>0</PhysicsObjectSensor>
