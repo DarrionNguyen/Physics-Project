@@ -51,10 +51,14 @@ vsp = 0;
           <argument>
             <kind>1</kind>
             <string>if (vsp &lt; 10) vsp += grav;
-
 //side collision
 if (place_meeting(x+hsp,y,obj_wall))
 {
+    if (place_meeting(x+hsp,y,obj_box))
+    {
+        box = instance_nearest(x+32+hsp,y,obj_box);
+        box.hsp = hsp / 1.6666;
+    }
     while(!place_meeting(x+sign(hsp),y,obj_wall)) 
     {
         x += sign(hsp);
@@ -63,7 +67,7 @@ if (place_meeting(x+hsp,y,obj_wall))
 }    
 x += hsp;
 
-hsp = max(hsp-0.9,0);
+hsp = max(hsp-0.44444,0);
 
 // more side collision
 if (place_meeting(x,y+vsp,obj_wall))
@@ -75,7 +79,6 @@ if (place_meeting(x,y+vsp,obj_wall))
     vsp = 0
 }    
 y += vsp;
-
 </string>
           </argument>
         </arguments>
@@ -84,7 +87,7 @@ y += vsp;
   </events>
   <PhysicsObject>0</PhysicsObject>
   <PhysicsObjectSensor>0</PhysicsObjectSensor>
-  <PhysicsObjectShape>0</PhysicsObjectShape>
+  <PhysicsObjectShape>1</PhysicsObjectShape>
   <PhysicsObjectDensity>0.5</PhysicsObjectDensity>
   <PhysicsObjectRestitution>0.100000001490116</PhysicsObjectRestitution>
   <PhysicsObjectGroup>0</PhysicsObjectGroup>
