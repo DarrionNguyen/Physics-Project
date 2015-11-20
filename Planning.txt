@@ -8,38 +8,34 @@ Menelaus Cronus...
 We have awoken you from deep sleep in order to seek your help.
 A mysterious being is wreaking massive havoc among the multiverse and without your aid, the whole world as we know it might shatter.
 It has gone to the point where multiply multiverse theories arose, and we need a reality check in order to fix the world.
-Confusing huh? multiply multiverse theories each with multiple universes in them. how strange.
-Our intelligence has gathered that the mysterious being is following the theories of Tegmarks and Brian Greenes.
-None the matter, make haste! we have no time to spare, we shall send you on a trip in order to stop this entity, go! save the world.
+Confusing huh? Multiply multiverse theories each with multiple universes in them. How strange.
+Our intelligence has gathered that the mysterious being is following the theories of Tegmark's and Brian Greene's.
+None the matter, make haste! We have no time to spare, we shall send you on a trip in order to stop this entity. Go! save the world.
 
-Fade to main screen
+**fade to main screen
+**after level 1 is clicked.
 
-after level 1 is clicked.
-Watch Out! the mysterious being has sent an exact copy of you to attack you! But how does this happen...
-Our headquarters has sent us a message, this clones existance is created from tegmark's first level of the multiverse, or similarly the quilted multiverse, proposed by Greene. Both of these theories
-share a similar premise, beyond the observable universe is a massively vast amount of space, maybe even infinite. There is infact so much space that through pure probabilty alone, another copy of
-Earth is somewhere out in the universe. Although not neccesarilly a multiuniverse, for all intents and purposes it still counts as one. It seems as though the mysterious being
+Watch out! The mysterious being has sent an exact copy of you to attack you! But how does this happen...
+Our headquarters has sent us a message, this clone's existance is created from Tegmark's first level of the multiverse, or similarly the quilted and holographic multiverses, proposed by Greene. Both of these theories share a similar premise, beyond the observable universe is a massively vast amount of space, maybe even infinite. There is infact so much space that through pure probabilty alone, another copy of Earth is somewhere out in the universe. Although not neccesarilly a multi-universe, for all intents and purposes it still counts as one. It seems as though the mysterious being
 has taken one of these copies of you and pitted you against him in order to distract you. Hurry, kill your copy so that we can continue on our mission in defeating the mysterious being.
 
-kills clone goes to level two
+**kills clone goes to level two
 
 It seems as though his headquarters is centered in this base. Although made out of super matter and unbreakable, he still needs to get in and out of his base. We shall break
 into his entrance and go in and meet him personally. Be careful however, he has tricks up his sleeves and instead of using passwords, he made a portal puzzle.
-Our intel has informed us that these puzzles are based around Tegmark's second level of the multiverse, or similarly a combination of Brian Greene's(_______) universes.
-In Tegmarks theory, all the universes are bubbles, and in each bubble there are different constants
+Our intel has informed us that these puzzles are based around Tegmark's second level of the multiverse, or similarly a combination of Brian Greene's inflatonary, brane, and cyclic universes.
+In Tegmark's theory, all the universes are bubbles, and in each bubble there are different constants
 and laws. It seems as though each portal leads through to another universe and back into
 ours again. The blue portals are an entrance and the red an exit. You have a low chance of escaping going inside the
-portal due to the unknown constants in the other universe so we have made you immune to the portals grasp. It seems as though
-the puzzle is to push objects into the portals in order to change them and complete the puzzle.
+portal due to the unknown constants in the other universe so we have made you immune to the portals grasp. It seems as though the puzzle is to push objects into the portals in order to change them and complete the puzzle.
 The way the actual multiverses work is due to cosmic inflation. From the beginning in the big bang, the world had been
 rapidly expanded and heated. Eventually it cooled down and then the universe as we know it today started to form.
 Our universe is not the only bubble however, and we might be upon different bubbles, and other bubbles of universes
 may be on our universe. The only possible evidence before the mysterious being came was called
 "circles in the sky", but we havent seen those yet. Circles in the sky are when a circle is formed on the 
-cosmological background due to two bubbles colliding upon each other. It seems as though the mysterious being has found
-one of these collisions and is taking advantage of them by making portals and using it as a puzzle for the entrance of
-his base. Solve these puzzles and enter.
+cosmological background due to two bubbles colliding upon each other. It seems as though the mysterious being has found one of these collisions and is taking advantage of them by making portals and using it as a puzzle for the entrance of his base. Solve these puzzles and enter.
 
+<<<<<<< HEAD
 Puzzles solved... level three
 Unfortunately, he has more tricks up his sleeves other than those portals you have solved. It seems that this here follows level three of Tegmark's, the quantum universe theory.
 The way this one works is by delving all the way, as the name suggest, into the quantum level. The basis of this theory comes from light. Light has always been a sort
@@ -56,3 +52,12 @@ theory would be proven true if someone were to do this and live for a long time,
 It seems as though our researchers has taken the quantum gun literally, and had made you a gun that only has a 50% chance of firing. It seems as though the defence
 to get to his base is also randomized. You will have to battle through these set of guards using your quantum gun, we have no idea how strong these guys are and how many there are.
 Good luck and see you on the other side.
+=======
+**Puzzles solved... level three
+
+Unfortunately, (third level Tegmark, landscape and quantum multiverse Greene)
+
+**Shooter complete, level four (holographic multiverse Greene)
+
+**Mob grind complete, level five (fourth level Tegmark, simulated and ultimate multiverse Greene)
+>>>>>>> origin/master

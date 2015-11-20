@@ -7,6 +7,7 @@
   <sounds name="sound">
     <sound>sound\button_click</sound>
     <sound>sound\button_click_better</sound>
+    <sound>sound\player_death</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="menu">
@@ -101,6 +102,7 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\fade_goto_room.gml</script>
+    <script>scripts\death_restart_room.gml</script>
     <script>scripts\fade_prev_room.gml</script>
     <script>scripts\fade_next_room.gml</script>
     <script>scripts\scr_anglerotate.gml</script>
@@ -113,6 +115,7 @@
       <object>objects\obj_controls</object>
     </objects>
     <object>objects\obj_blackTrans</object>
+    <object>objects\obj_restartTrans</object>
     <object>objects\obj_wall</object>
     <objects name="obj_levelselect">
       <object>objects\obj_button1</object>
@@ -145,12 +148,22 @@
       <object>objects\obj_portal_entry</object>
       <object>objects\obj_portal_exit</object>
     </objects>
+<<<<<<< HEAD
     <object>objects\obj_quantumgun</object>
     <object>objects\obj_bullet</object>
+=======
+    <objects name="level_texts">
+      <object>objects\obj_level1</object>
+      <object>objects\obj_level2</object>
+      <object>objects\obj_level3</object>
+      <object>objects\obj_level4</object>
+      <object>objects\obj_level5</object>
+    </objects>
+>>>>>>> origin/master
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_debug</room>
     <room>rooms\rm_menu</room>
+    <room>rooms\rm_debug</room>
     <room>rooms\rm_controls_page1</room>
     <room>rooms\rm_levelselect</room>
     <room>rooms\rm_level1</room>
