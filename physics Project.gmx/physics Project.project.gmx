@@ -163,7 +163,6 @@
     </objects>
     <objects name="interactable">
       <object>objects\obj_box</object>
-      <object>objects\object39</object>
       <object>objects\obj_portal_entry</object>
       <object>objects\obj_portal_exit</object>
     </objects>
@@ -176,7 +175,6 @@
     </objects>
     <object>objects\obj_buttonmaker</object>
     <object>objects\obj_button</object>
-    <object>objects\obj_controller_lvl2</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>

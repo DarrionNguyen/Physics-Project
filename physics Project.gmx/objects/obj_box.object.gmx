@@ -67,7 +67,7 @@ if (place_meeting(x+hsp,y,obj_wall))
 }    
 x += hsp;
 
-hsp = max(hsp-0.05,0);
+hsp = max(hsp-0.44444,0);
 
 // more side collision
 if (place_meeting(x,y+vsp,obj_wall))
@@ -87,6 +87,30 @@ y += vsp;
     <event eventtype="4" ename="obj_portal_entry">
       <action>
         <libid>1</libid>
+        <id>109</id>
+        <kind>0</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_move_to</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>0</kind>
+            <string>obj_portal_exit.x+15</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>obj_portal_exit.y</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
         <id>603</id>
         <kind>7</kind>
         <userelative>0</userelative>
@@ -101,29 +125,7 @@ y += vsp;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>var portalX, portalY;
-if (x &gt;= 400 &amp;&amp; x &lt;= 550 &amp;&amp; y &gt;= 500 &amp;&amp; y &lt;= 710)
-{
-    portalX = 480; portalY = 96;
-}
-
-if (x &gt;= 900 &amp;&amp; x &lt;= 1100 &amp;&amp; y &gt;= 500 &amp;&amp; y &lt;= 710)
-{
-    portalX = 1216; portalY = 320;
-}
-
-if (x &gt;= 1400 &amp;&amp; x &lt;= 1600 &amp;&amp; y &gt;= 200 &amp;&amp; y &lt;= 500)
-{
-    portalX = 1312; portalY = 608;
-}
-
-if (x &gt;= 1600 &amp;&amp; x &lt;= 1700 &amp;&amp; y &gt;= 500 &amp;&amp; y &lt;= 710)
-{
-    portalX = 1760; portalY = 96;
-}
-
-x = portalX;
-y = portalY;
+            <string>grav += 0.2
 </string>
           </argument>
         </arguments>
