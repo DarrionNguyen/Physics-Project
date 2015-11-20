@@ -52,6 +52,7 @@
   </views>
   <instances>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -69,6 +70,8 @@
 =======
 >>>>>>> parent of ef59b04... box button
 >>>>>>> parent of 0fd5c04... yes
+=======
+>>>>>>> parent of ef59b04... box button
     <instance objName="obj_tile1" x="352" y="736" name="inst_492DCA18" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_tile1" x="384" y="736" name="inst_23953A7B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_tile1" x="416" y="736" name="inst_842D22F3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -223,6 +226,7 @@
     <instance objName="obj_quantumgun" x="192" y="256" name="inst_FB4822CA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
     <instance objName="obj_player" x="64" y="512" name="inst_C91BD659" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -230,6 +234,8 @@
 =======
 >>>>>>> parent of ef59b04... box button
 >>>>>>> parent of 0fd5c04... yes
+=======
+>>>>>>> parent of ef59b04... box button
     <instance objName="obj_clone" x="1792" y="576" name="inst_1BAEC618" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_tile2" x="1600" y="736" name="inst_39EB5006" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_tile2" x="1664" y="736" name="inst_A075CBC7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -255,10 +261,13 @@
     <instance objName="obj_tile2" x="1728" y="736" name="inst_1B3C6BE0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_tile2" x="1696" y="736" name="inst_5AA1178C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> parent of 0fd5c04... yes
+=======
+>>>>>>> parent of ef59b04... box button
     <instance objName="obj_tile2" x="1664" y="736" name="inst_38F42D0B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_tile2" x="1632" y="736" name="inst_BC25682F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_tile3" x="320" y="672" name="inst_21147608" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -310,6 +319,7 @@
     <instance objName="obj_tile3" x="128" y="736" name="inst_FCAE0458" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_tile3" x="96" y="736" name="inst_088CE74F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_tile3" x="0" y="704" name="inst_E8F6E17B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -521,6 +531,8 @@
 =======
 >>>>>>> parent of ef59b04... box button
 >>>>>>> parent of 0fd5c04... yes
+=======
+>>>>>>> parent of ef59b04... box button
 >>>>>>> origin/master
   </instances>
   <tiles/>

@@ -8,7 +8,10 @@
     <sound>sound\button_click</sound>
     <sound>sound\button_click_better</sound>
     <sound>sound\player_death</sound>
+<<<<<<< HEAD
     <sound>sound\laser_shot</sound>
+=======
+>>>>>>> parent of ef59b04... box button
   </sounds>
   <sprites name="sprites">
     <sprites name="menu">
@@ -149,8 +152,13 @@
       <object>objects\obj_portal_entry</object>
       <object>objects\obj_portal_exit</object>
     </objects>
+<<<<<<< HEAD
     <object>objects\obj_quantumgun</object>
     <object>objects\obj_bullet</object>
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> parent of ef59b04... box button
     <objects name="level_texts">
       <object>objects\obj_level1</object>
       <object>objects\obj_level2</object>
@@ -158,6 +166,7 @@
       <object>objects\obj_level4</object>
       <object>objects\obj_level5</object>
     </objects>
+<<<<<<< HEAD
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
@@ -168,6 +177,13 @@
     <room>rooms\rm_menu</room>
     <room>rooms\rm_test</room>
 >>>>>>> parent of df978a3... testing objectives
+=======
+>>>>>>> origin/master
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\rm_menu</room>
+    <room>rooms\rm_debug</room>
+>>>>>>> parent of ef59b04... box button
     <room>rooms\rm_controls_page1</room>
     <room>rooms\rm_levelselect</room>
     <room>rooms\rm_level1</room>
