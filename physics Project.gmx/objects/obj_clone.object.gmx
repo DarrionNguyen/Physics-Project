@@ -79,6 +79,11 @@ if (place_meeting(x,y+1,obj_wall))
 //side collision
 if (place_meeting(x+hsp,y,obj_wall))
 {
+    if (place_meeting(x+hsp,y,obj_box))
+    {
+        box = instance_nearest(x+hsp,y,obj_box);
+        box.hsp = hsp;
+    }
     while(!place_meeting(x+sign(hsp),y,obj_wall)) 
     {
         x += sign(hsp);
