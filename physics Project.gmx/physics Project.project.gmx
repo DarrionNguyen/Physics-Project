@@ -176,6 +176,8 @@
     </objects>
     <object>objects\obj_buttonmaker</object>
     <object>objects\obj_button</object>
+    <object>objects\obj_finalboss</object>
+    <object>objects\obj_banana</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>

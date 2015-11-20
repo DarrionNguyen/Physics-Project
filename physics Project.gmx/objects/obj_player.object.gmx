@@ -111,12 +111,7 @@ if (place_meeting(x,y+vsp,obj_wall))
 } 
 y += vsp;
 
-if (place_meeting(x,y,obj_clone))
-{
-    isDead = true;
-}
-
-if (y &gt;= room_height+256)
+if (y &gt;= room_height+256 || place_meeting(x,y,obj_clone) || place_meeting(x,y,obj_andy) || place_meeting(x,y,obj_banana))
 {
     isDead = true;
 }
@@ -131,22 +126,6 @@ if (isDead &amp;&amp; !restarting)
 </string>
           </argument>
         </arguments>
-      </action>
-    </event>
-    <event eventtype="4" ename="obj_andy">
-      <action>
-        <libid>1</libid>
-        <id>223</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_current_room</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
       </action>
     </event>
   </events>
