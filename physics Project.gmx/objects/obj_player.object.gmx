@@ -31,7 +31,8 @@ vsp = 0;
 jumpspeed = 7;
 movespeed = 6;
 movingTicks = 0;
-health = 10
+isDead = false;
+restarting = false;
 </string>
           </argument>
         </arguments>
@@ -110,6 +111,23 @@ if (place_meeting(x,y+vsp,obj_wall))
 } 
 y += vsp;
 
+if (place_meeting(x,y,obj_clone))
+{
+    isDead = true;
+}
+
+if (y &gt;= room_height+256)
+{
+    isDead = true;
+}
+
+if (isDead &amp;&amp; !restarting)
+{
+    restarting = true;
+    audio_play_sound(player_death, 1, 0);
+    image_alpha = 0;
+    death_restart_room();
+}
 </string>
           </argument>
         </arguments>
