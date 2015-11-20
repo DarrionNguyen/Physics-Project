@@ -34,8 +34,9 @@
     </sprites>
     <sprites name="Spr_LevelSelect">
       <sprite>sprites\spr_unlit</sprite>
-      <sprite>sprites\spr_lit2</sprite>
+      <sprite>sprites\spr_unlit2</sprite>
       <sprite>sprites\spr_lit</sprite>
+      <sprite>sprites\spr_lit2</sprite>
       <sprite>sprites\spr_template</sprite>
       <sprite>sprites\spr_level_10</sprite>
       <sprite>sprites\spr_level_9</sprite>
@@ -101,6 +102,7 @@
     <sprite>sprites\spr_button</sprite>
     <sprite>sprites\spr_andydied</sprite>
     <sprite>sprites\spr_andycreator</sprite>
+    <sprite>sprites\spr_banana</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -174,8 +176,6 @@
       <object>objects\obj_level4</object>
       <object>objects\obj_level5</object>
     </objects>
-    <object>objects\obj_buttonmaker</object>
-    <object>objects\obj_button</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
