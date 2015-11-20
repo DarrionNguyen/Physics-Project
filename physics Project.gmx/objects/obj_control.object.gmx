@@ -32,6 +32,8 @@ global.level4 = false
 global.level5unlock = false
 
 global.changingRoom = false;
+
+global.grav = 0.4;
 //ai
 
 </string>
