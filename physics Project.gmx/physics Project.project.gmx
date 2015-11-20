@@ -105,6 +105,7 @@
     <sprite>sprites\spr_banana</sprite>
     <sprite>sprites\spr_nick</sprite>
     <sprite>sprites\spr_henry</sprite>
+    <sprite>sprites\spr_intro</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -122,10 +123,11 @@
   </fonts>
   <objects name="objects">
     <objects name="menu">
-      <object>objects\obj_play</object>
       <object>objects\obj_bg</object>
       <object>objects\obj_title</object>
       <object>objects\obj_controls</object>
+      <object>objects\obj_intro</object>
+      <object>objects\obj_play</object>
     </objects>
     <object>objects\obj_blackTrans</object>
     <object>objects\obj_restartTrans</object>
@@ -144,6 +146,9 @@
       </objects>
     </objects>
     <object>objects\obj_player</object>
+    <objects name="Obj_Cutscenese">
+      <object>objects\talking_henry</object>
+    </objects>
     <objects name="obj_levelthree">
       <object>objects\obj_andy</object>
       <object>objects\obj_countdown</object>
@@ -184,6 +189,7 @@
     <object>objects\obj_banana</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_intro</room>
     <room>rooms\rm_menu</room>
     <room>rooms\rm_controls_page1</room>
     <room>rooms\rm_levelselect</room>
