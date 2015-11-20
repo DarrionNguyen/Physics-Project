@@ -170,7 +170,6 @@
       <object>objects\obj_buttonmaker</object>
       <object>objects\obj_button</object>
     </objects>
-    <object>objects\obj_control</object>
     <objects name="tiles">
       <object>objects\obj_tile1</object>
       <object>objects\obj_tile2</object>
@@ -191,8 +190,10 @@
     </objects>
     <object>objects\obj_finalboss</object>
     <object>objects\obj_banana</object>
+    <object>objects\obj_control</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_intro</room>
     <room>rooms\rm_menu</room>
     <room>rooms\rm_controls_page1</room>
     <room>rooms\rm_levelselect</room>
@@ -205,7 +206,6 @@
     <room>rooms\rm_level4_c</room>
     <room>rooms\rm_level4</room>
     <room>rooms\rm_ending</room>
-    <room>rooms\rm_intro</room>
     <room>rooms\rm_debug</room>
   </rooms>
   <help>

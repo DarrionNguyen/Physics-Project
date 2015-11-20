@@ -26,18 +26,13 @@
           <argument>
             <kind>1</kind>
             <string>global.level1 = true
-global.level2 = true
-global.level3 = true
-global.level4 = true
-<<<<<<< HEAD
-global.level5 = true
-=======
->>>>>>> origin/master
-
+global.level2 = false
+global.level3 = false
+global.level4 = false
+global.level5 = false
 global.changingRoom = false;
 
 global.grav = 0.4;
-//ai
 
 </string>
           </argument>
