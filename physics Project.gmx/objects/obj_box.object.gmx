@@ -28,8 +28,8 @@
             <string>grav = 0.6;
 hsp = 0;
 vsp = 0;
-var portalx
-var portaly
+portalx=0;
+portaly=0;
 
 </string>
           </argument>
@@ -104,22 +104,25 @@ y += vsp;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (x &gt;= 400 &amp;&amp; x &lt;= 550 &amp;&amp; y &gt;= 500 &amp;&amp; y &lt;= 710)
+            <string>if (x &gt;= 1600 &amp;&amp; x &lt;= 1650)
 {
-    portalx = 480; portaly = 96;
+    portalx = 1760;
+    portaly = 128;
 }
-else if (x &gt;= 900 &amp;&amp; x &lt;= 1100 &amp;&amp; y &gt;= 500 &amp;&amp; y &lt;= 710)
+else if (x &gt;= 400 &amp;&amp; x &lt;= 450)
 {
-    portalx = 1216; portaly = 320;
+    portalx = 480;
+    portaly = 96;
 }
-
-else if (x &gt;= 1400 &amp;&amp; x &lt;= 1600 &amp;&amp; y &gt;= 200 &amp;&amp; y &lt;= 500)
+else if (x &gt;= 920 &amp;&amp; x &lt;= 1000)
 {
-    portalx = 1312; portaly = 608;
+    portalx = 1216;
+    portaly = 320;
 }
-if (x &gt;= 1600 &amp;&amp; x &lt;= 1700 &amp;&amp; y &gt;= 500 &amp;&amp; y &lt;= 710)
+else if (x &gt;= 1350 &amp;&amp; x &lt;= 1450)
 {
-    portalx = 1760; portaly = 96;
+    portalx = 1312;
+    portaly = 608;
 }
 
 x = portalx
