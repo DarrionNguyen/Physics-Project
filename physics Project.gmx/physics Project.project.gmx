@@ -143,10 +143,17 @@
       <object>objects\obj_portal_entry</object>
       <object>objects\obj_portal_exit</object>
     </objects>
+    <objects name="level_texts">
+      <object>objects\obj_level1</object>
+      <object>objects\obj_level2</object>
+      <object>objects\obj_level3</object>
+      <object>objects\obj_level4</object>
+      <object>objects\obj_level5</object>
+    </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_debug</room>
     <room>rooms\rm_menu</room>
+    <room>rooms\rm_debug</room>
     <room>rooms\rm_controls_page1</room>
     <room>rooms\rm_levelselect</room>
     <room>rooms\rm_level1</room>
